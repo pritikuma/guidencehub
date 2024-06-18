@@ -1,0 +1,35 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+ 
+@layer base {
+    body {
+       background-color: black;
+    }
+}
+.slick-slide > div {
+    margin: 0 10px;
+
+
+}
+
+.slick-prev, .slick-next {
+    font-size: 50px !important; 
+    width: 100px !important;    
+    height: 100px !important;    
+    z-index: 1 !important;      
+  }
+  
+  .slick-prev::before, .slick-next::before {
+    font-size: 80px !important; 
+    color: white !important;    
+  }
+  
+
+  .slick-prev:hover, .slick-next:hover {
+    background-color: rgba(0, 0, 0, 0.5) !important; 
+    border-radius: 50% !important;                  
+  }
+ 
+  
+
